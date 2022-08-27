@@ -24,18 +24,21 @@ After cloning this repo, run:
 ```sh
 composer install
 ```
-
+ 
+<br />
 
 Create your .env file by copying the contents from .env.example.
 
 Edit your .env file to match your DB configuration. Then run:
 
 ```sh
+php artisan migrate
+
 # Generates app key
 php artisan key:generate
-
-php artisan migrate
 ```
+
+<br />
 
 Install the Breeze package:
 
@@ -45,6 +48,8 @@ npm install
 # Compiles the frontend assets
 npm run dev
 ```
+
+<br />
 
 Terminate (Ctrl+C) the existing command or open another terminal then run:
 
