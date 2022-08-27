@@ -37,6 +37,7 @@ Install the Breeze package:
 ```sh
 npm install
 
+# Compiles the frontend assets
 npm run dev
 ```
 
