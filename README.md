@@ -51,7 +51,7 @@ npm run dev
 
 <br />
 
-Terminate (Ctrl+C) the existing command or open another terminal then run:
+Open a new terminal then run:
 
 ```sh
 php artisan serve
