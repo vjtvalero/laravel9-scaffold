@@ -26,9 +26,14 @@ composer install
 ```
 
 
-Edit your .env to match your DB configuration then run:
+Create your .env file by copying the contents from .env.example.
+
+Edit your .env file to match your DB configuration. Then run:
 
 ```sh
+# Generates app key
+php artisan key:generate
+
 php artisan migrate
 ```
 
